@@ -25,14 +25,12 @@ class ViewController: UIViewController {
         
     }()
     
-    let dataArrays = ["点赞头像动画"]
+    let dataArrays = ["点赞头像动画","光圈式头像动画"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         listTableView.isHidden = false
-        
-        print(arc4random_uniform(UInt32(1)))
     }
 }
 
@@ -56,6 +54,12 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-        navigationController?.pushViewController(CollapseAnimationVC(), animated: true)
+        switch indexPath.row {
+        case 0:
+            navigationController?.pushViewController(CollapseAnimationVC(), animated: true)
+        default:
+            navigationController?.pushViewController(DynamicDisplayHideHeaderVC(), animated: true)
+        }
+        
     }
 }

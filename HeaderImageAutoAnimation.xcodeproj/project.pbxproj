@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B2B56876AB44D3933F08560E /* Pods_HeaderImageAutoAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 468057C320A452A5C8CD536C /* Pods_HeaderImageAutoAnimation.framework */; };
+		BD7CC8C72744DF4C002683D9 /* DynamicDisplayHideHeaderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7CC8C62744DF4C002683D9 /* DynamicDisplayHideHeaderVC.swift */; };
 		BDC2C02E273CB74900E0EC20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC2C02D273CB74900E0EC20 /* AppDelegate.swift */; };
 		BDC2C030273CB74900E0EC20 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC2C02F273CB74900E0EC20 /* SceneDelegate.swift */; };
 		BDC2C032273CB74900E0EC20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC2C031273CB74900E0EC20 /* ViewController.swift */; };
@@ -39,6 +40,7 @@
 /* Begin PBXFileReference section */
 		468057C320A452A5C8CD536C /* Pods_HeaderImageAutoAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeaderImageAutoAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		643B6D1BDD01AF2B6BB34492 /* Pods-HeaderImageAutoAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeaderImageAutoAnimation.debug.xcconfig"; path = "Target Support Files/Pods-HeaderImageAutoAnimation/Pods-HeaderImageAutoAnimation.debug.xcconfig"; sourceTree = "<group>"; };
+		BD7CC8C62744DF4C002683D9 /* DynamicDisplayHideHeaderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicDisplayHideHeaderVC.swift; sourceTree = "<group>"; };
 		BDC2C02A273CB74900E0EC20 /* HeaderImageAutoAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeaderImageAutoAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDC2C02D273CB74900E0EC20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDC2C02F273CB74900E0EC20 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 				BDC2C02F273CB74900E0EC20 /* SceneDelegate.swift */,
 				BDC2C031273CB74900E0EC20 /* ViewController.swift */,
 				BDCED810273CC964003AD458 /* CollapseAnimationVC.swift */,
+				BD7CC8C62744DF4C002683D9 /* DynamicDisplayHideHeaderVC.swift */,
 				BDCED844273CF485003AD458 /* CommonInfo.swift */,
 				BDC2C036273CB74B00E0EC20 /* Assets.xcassets */,
 				BDC2C038273CB74B00E0EC20 /* LaunchScreen.storyboard */,
@@ -332,6 +335,7 @@
 				BDC2C032273CB74900E0EC20 /* ViewController.swift in Sources */,
 				BDC2C02E273CB74900E0EC20 /* AppDelegate.swift in Sources */,
 				BDC2C030273CB74900E0EC20 /* SceneDelegate.swift in Sources */,
+				BD7CC8C72744DF4C002683D9 /* DynamicDisplayHideHeaderVC.swift in Sources */,
 				BDCED845273CF485003AD458 /* CommonInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
